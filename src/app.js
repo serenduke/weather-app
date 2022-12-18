@@ -2,13 +2,13 @@
 function liveDayTime() {
   let now = new Date();
   let weekdays = [
+    "Sunday",
     "Monday",
     "Tuesday",
     "Wednesday",
     "Thursday",
     "Friday",
     "Saturday",
-    "Sunday",
   ];
   let day = weekdays[now.getDay()];
   let hour = now.getHours();
