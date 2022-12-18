@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+/*
+font-family: 'Fredoka One', cursive;
+font-family: 'Roboto Slab', serif;
+*/
+
+.header {
+  padding: 0px, 0px;
+  --bs-navbar-padding-y: 10px;
+  --bs-navbar-padding-x: 20px;
+}
+
+.logo {
+  font-family: "Fredoka One", cursive;
+  margin: 0 auto;
+}
+.sun-icon.hero {
+  color: orange;
+  font-size: 60px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 100%;
+}
+
+.cloud-icon {
+  color: rgb(95, 95, 95);
+  font-size: 40px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 100%;
+}
+
+.sun-cloud-icon {
+  color: orange;
+  font-size: 40px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 100%;
+}
+
+.sun-icon {
+  color: orange;
+  font-size: 40px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 100%;
+}
+
+.rain-icon {
+  color: rgb(37, 0, 118);
+  font-size: 40px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 100%;
+}
+
+.snow-icon {
+  color: rgb(109, 109, 109);
+  font-size: 40px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 100%;
+}
+
+.hero-weather-icon {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.hero-text {
+  align-content: center;
+}
+.hero-city {
+  text-transform: capitalize;
+}
+.hero-temp {
+  margin-bottom: 0;
+  text-align: left;
+  font-size: 36px;
+}
+.day-time {
+  padding-bottom: 10px;
+  text-align: left;
+}
+.hero-temp-block {
+  align-self: center;
+  text-align: left;
+  padding-bottom: 10px;
+}
+.hero-section {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  height: 200px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  padding: 50px;
+  background: linear-gradient(to bottom, transparent, rgb(255, 255, 255)),
+    url("../images/sunshine.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.col {
+  padding: 2px;
+}
+
+.temp-blocks {
+  display: block;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.day1,
+.day2,
+.day3,
+.day4,
+.day5 {
+  display: block;
+  margin: 0 auto;
+}
+
+.day1 {
+  background-color: rgb(255, 172, 7);
+}
+.day2 {
+  background-color: rgb(255, 109, 5);
+}
+.day3 {
+  background-color: rgb(195, 52, 0);
+}
+.day4 {
+  background-color: rgb(29, 173, 225);
+}
+.day5 {
+  background-color: rgb(99, 99, 160);
+}
+
+.card {
+  border-radius: 100px;
+  color: white;
+  max-width: 120px;
+  min-width: 120px;
+}
+
+.temp {
+  font-family: "Fredoka One";
+  font-size: 24px;
+}
+
+.day {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 575px) {
+  .hero-temp {
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 28px;
+  }
+  .hero-temp-block {
+    align-self: center;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .hero-section {
+    height: 200px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding: 10px;
+  }
+}
