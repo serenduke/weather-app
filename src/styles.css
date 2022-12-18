@@ -12,6 +12,10 @@ font-family: 'Roboto Slab', serif;
   --bs-navbar-padding-x: 20px;
 }
 
+.footer-link {
+  color: white;
+}
+
 .logo {
   font-family: "Fredoka One", cursive;
   margin: 0 auto;
