@@ -66,4 +66,3 @@ function submitSearch(event) {
 
 let search = document.querySelector("#search-form");
 search.addEventListener("submit", submitSearch);
-submitSearch();
